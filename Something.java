@@ -16,11 +16,11 @@ public class Something {
         int int1 = -2_147_483_648;
         int int2 = 2_147_483_647;
 
-        // 8 bytes
+        // 8 bytes | Requires "l" or "L" at the end
         long long1 = -9_223_372_036_854_775_807l;
         long long2 = 9_223_372_036_854_775_806l;
 
-        // 4 bytes
+        // 4 bytes | Use "f" at the end to differentiate from double
         float float1 = 1.0000001f;
 
         // 8 bytes
